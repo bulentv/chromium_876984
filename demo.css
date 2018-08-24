@@ -1,0 +1,12 @@
+#root-container {
+  --demo-div-left: 200px;
+}
+
+.demo-div {
+  background-color: red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: var(--demo-div-left);
+  top: 100px;
+}
